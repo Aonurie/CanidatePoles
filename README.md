@@ -23,10 +23,15 @@ This repository provides a Python-based toolkit for optimizing the placement of 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Aonurie/CanidatePoles.git
-   
+   ```
 #### Dependencies
 
 Install required packages with:
   ```bash
   pip install -r requirements.txt
-
+   ```
+#### Usage
+- Change the file_path to csv file name and change the cost of poles to run the candidate poles generation
+    ```bash
+    python main.py
+   ```
