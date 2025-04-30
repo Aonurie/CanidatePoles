@@ -349,8 +349,8 @@ def main(file_path, poles_cost, mv_cost, lv_cost):
     #save them to disk
     import pandas as pd
     df_cand = pd.DataFrame(candidate_poles, columns=['Latitude', 'Longitude'])
-    df_cand.to_csv('candidate_poles2.csv', index=False)
-    print("→ candidate_poles2.csv written with", len(df_cand), "rows")
+    df_cand.to_csv('candidate_poles.csv', index=False)
+    print("→ candidate_poles.csv written with", len(df_cand), "rows")
 
     #visualize
     visualize_candidate_poles(buildings, candidate_poles)
