@@ -17,9 +17,16 @@ This repository provides a Python-based toolkit for optimizing the placement of 
 
 - **Python** 3.7 or higher
 
+
+#### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aonurie/CanidatePoles.git
+   
 #### Dependencies
 
 Install required packages with:
+  ```bash
+  pip install -r requirements.txt
 
-```bash
-pip install -r requirements.txt
